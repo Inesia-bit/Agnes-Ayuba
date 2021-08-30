@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import {Search} from '@material-ui/icons'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      hey
+      <Search/>
+      <input type="text" value="Name" />
     </div>
   );
 }

@@ -10,7 +10,7 @@ function App() {
   let result
   const pathGet = (arr1, query) => {
   var path = findPath(arr1, query);
-  return path == null ? '' : 'a.' +path.join('.');
+  return path == null ? '' :  path.join('.');
 };
 
 function findPath(obj, query) {

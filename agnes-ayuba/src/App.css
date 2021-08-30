@@ -18,8 +18,8 @@ body{
 .App input{
   margin-left:8px;
   width: 90%;
-  height: 70%;
-  outline-color:"#fff";
+  height: 80%;
+  outline-color:#fff;
   border:none;
   font-size: medium;
   
